@@ -29,7 +29,7 @@ stages:
             tag: $(Build.SourceBranchName)
             title: 'Release v$(Build.SourceBranchName)'
             releaseNotesSource: filePath
-            releaseNotesFilePath: '$(Build.SourcesDirectory)/docs/releases/v${Build.SourceBranchName}.md'
+            releaseNotesFilePath: '$(Build.SourcesDirectory)/docs/releases/v$(Build.SourceBranchName).md'
             assets: '$(Build.ArtifactStagingDirectory)/*'
             addChangeLog: true
             changeLogCompareToRelease: lastFullRelease
