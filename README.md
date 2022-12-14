@@ -35,3 +35,9 @@ Nuances:
 * And I incorrectly used a predefined variable, no idea how that happened
 
 Well, that's it for these trials, didn't think I'd get it on the first trigger rule because I misunderstood the definition of it in the docs and had a different idea in my other repo, "Seelan's Tyres" [here](https://github.com/ShaylenReddy42/Seelans-Tyres/commit/78dd7fea58e68b4452a54cdec0d434c4ff649524)
+
+## Microsoft Docs I used
+
+* [Build GitHub repositories [Tags]](https://learn.microsoft.com/en-us/azure/devops/pipelines/repos/github?view=azure-devops&tabs=yaml#tags)
+* [GitHubRelease@1 - GitHub Release v1 task](https://learn.microsoft.com/en-us/azure/devops/pipelines/tasks/reference/github-release-v1?view=azure-pipelines)
+* [Use predefined variables [Build variables (DevOps Services)]](https://learn.microsoft.com/en-us/azure/devops/pipelines/build/variables?view=azure-devops&tabs=yaml#build-variables-devops-services)
